@@ -5,6 +5,7 @@ package problems.p3;
  */
 public class NoRepeatString {
     public int lengthOfLongestSubstring(String s) {
+//        1、简单的思路
         int length = 0;
         int begin = 0;
         char[] arr = s.toCharArray();
@@ -18,7 +19,9 @@ public class NoRepeatString {
             if (i - begin + 1 > length){
                 length = i - begin + 1;
             }
-//      一个高消耗内存的写法，虽然也可以执行结果
+
+
+//      2、一个高消耗内存的写法，虽然也可以执行结果
 //            for (int j = s.length(); j > i; j--) {
 //                String ss = s.substring(i, j);
 //                boolean status = false;
