@@ -30,9 +30,32 @@ public class MedianNumber {
         //寻找第n/2个数，不需要全部遍历
         double medianNumber = 0;
         int k = (nums1.length + nums2.length)/2;
-        while(k > 0){
-
+        int i = 0, j = 0;
+        int mid1 = 0, mid2 = 0;
+        while(k >= 0){
+            mid1 = mid2;
+            if (i == nums1.length){
+                mid2 = nums2[j];
+                j++;
+            }
+            else if (j == nums2.length){
+                mid2 = nums1[i];
+                i++;
+            }
+            else if (nums1[i] >= nums2[j]){
+                mid2 = nums1[i];
+                i++;
+            }
+            else{
+                mid2 = nums2[j];
+                j++;
+            }
             k--;
+        }
+        if ((nums1.length + nums2.length)%2 == 0){
+            medianNumber = (mid2 +mid1)/2.0;
+        }else{
+            medianNumber = mid2/1.0;
         }
 
         return medianNumber;
