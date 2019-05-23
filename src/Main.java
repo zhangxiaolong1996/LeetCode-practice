@@ -1,5 +1,6 @@
 import problems.p3.NoRepeatString;
 import problems.p4.MedianNumber;
+import problems.p5.LongestPalindromic;
 
 /**
  * LeetCode的main函数
@@ -11,10 +12,13 @@ public class Main {
 //        System.out.println(noRepeatString.lengthOfLongestSubstring("mbbungzfpcbbgpzusqxqejrlsmkqtglijpcxxbcmffnlvnfpdd"));
 
         //p4
-        int[] nums1 = {1, 2};
-        int[] nums2 = {3, 4};
-        MedianNumber medianNumber = new MedianNumber();
-        System.out.println(medianNumber.findMedianSortedArrays(nums1, nums2));
+//        int[] nums1 = {1, 2};
+//        int[] nums2 = {3, 4};
+//        MedianNumber medianNumber = new MedianNumber();
+//        System.out.println(medianNumber.findMedianSortedArrays(nums1, nums2));
 
+//        p5、最长回文子串
+        LongestPalindromic longestPalindromic = new LongestPalindromic();
+        System.out.println(longestPalindromic.longestPalindrome("ccc"));
     }
 }

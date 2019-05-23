@@ -27,7 +27,7 @@ public class MedianNumber {
 //        }
 //        return medianNumber;
 
-        //寻找第n/2个数，不需要全部遍历
+//        寻找第n/2个数，不需要全部遍历
         double medianNumber = 0;
         int k = (nums1.length + nums2.length)/2;
         int i = 0, j = 0;
