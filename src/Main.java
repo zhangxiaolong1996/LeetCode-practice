@@ -24,7 +24,7 @@ public class Main {
 
 //        p6、z字形变换
         ZigZagConversion zigZagConversion = new ZigZagConversion();
-        System.out.println(zigZagConversion.convert("", 1));
+        System.out.println(zigZagConversion.convert("PAYPALISHIRING", 3));
 
     }
 }
