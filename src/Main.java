@@ -1,6 +1,7 @@
 import problems.p3.NoRepeatString;
 import problems.p4.MedianNumber;
 import problems.p5.LongestPalindromic;
+import problems.p6.ZigZagConversion;
 
 /**
  * LeetCode的main函数
@@ -18,7 +19,12 @@ public class Main {
 //        System.out.println(medianNumber.findMedianSortedArrays(nums1, nums2));
 
 //        p5、最长回文子串
-        LongestPalindromic longestPalindromic = new LongestPalindromic();
-        System.out.println(longestPalindromic.longestPalindrome("ccc"));
+//        LongestPalindromic longestPalindromic = new LongestPalindromic();
+//        System.out.println(longestPalindromic.longestPalindrome("ccc"));
+
+//        p6、z字形变换
+        ZigZagConversion zigZagConversion = new ZigZagConversion();
+        System.out.println(zigZagConversion.convert("", 1));
+
     }
 }
