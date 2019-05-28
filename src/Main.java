@@ -2,6 +2,7 @@ import problems.p3.NoRepeatString;
 import problems.p4.MedianNumber;
 import problems.p5.LongestPalindromic;
 import problems.p6.ZigZagConversion;
+import problems.p7.ReverseInteger;
 
 /**
  * LeetCode的main函数
@@ -23,8 +24,10 @@ public class Main {
 //        System.out.println(longestPalindromic.longestPalindrome("ccc"));
 
 //        p6、z字形变换
-        ZigZagConversion zigZagConversion = new ZigZagConversion();
-        System.out.println(zigZagConversion.convert("PAYPALISHIRING", 3));
-
+//        ZigZagConversion zigZagConversion = new ZigZagConversion();
+//        System.out.println(zigZagConversion.convert("PAYPALISHIRING", 3));
+//        p7、整数反转
+        ReverseInteger reverseInteger = new ReverseInteger();
+        System.out.println(reverseInteger.reverse(-123));
     }
 }
