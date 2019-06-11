@@ -3,6 +3,7 @@ import problems.p4.MedianNumber;
 import problems.p5.LongestPalindromic;
 import problems.p6.ZigZagConversion;
 import problems.p7.ReverseInteger;
+import problems.p8.Aoti;
 
 /**
  * LeetCode的main函数
@@ -27,7 +28,9 @@ public class Main {
 //        ZigZagConversion zigZagConversion = new ZigZagConversion();
 //        System.out.println(zigZagConversion.convert("PAYPALISHIRING", 3));
 //        p7、整数反转
-        ReverseInteger reverseInteger = new ReverseInteger();
-        System.out.println(reverseInteger.reverse(-123));
+//        ReverseInteger reverseInteger = new ReverseInteger();
+//        System.out.println(reverseInteger.reverse(-123));
+//        p8、字符串转换整数
+        Aoti.getInstance().myAtoi("   -42");
     }
 }
