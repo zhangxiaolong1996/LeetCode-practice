@@ -4,6 +4,7 @@ import problems.p5.LongestPalindromic;
 import problems.p6.ZigZagConversion;
 import problems.p7.ReverseInteger;
 import problems.p8.Aoti;
+import problems.p9.Palindrome;
 
 /**
  * LeetCode的main函数
@@ -31,6 +32,9 @@ public class Main {
 //        ReverseInteger reverseInteger = new ReverseInteger();
 //        System.out.println(reverseInteger.reverse(-123));
 //        p8、字符串转换整数
-        Aoti.getInstance().myAtoi("   -42");
+//        System.out.println(Aoti.getInstance().myAtoi("1"));
+
+//        p9、回文数
+        System.out.println(Palindrome.getInstance().isPalindrome(-121));
     }
 }
